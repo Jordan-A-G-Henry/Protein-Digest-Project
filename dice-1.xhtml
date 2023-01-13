@@ -1,0 +1,34 @@
+<html py:extends="master.xhtml" py:strip="True">
+    <head py:block="head" py:strip="True">
+        <title py:block="master_title">${title}</title>
+    </head>
+
+    <body py:block="body" py:strip="True">
+<P/>
+<table class="table">
+<tr>
+ <th>${splice[0][0]}</th>
+ <th>${splice[0][1]}</th>
+ <th>${splice[0][2]}</th>
+ <th>${splice[0][3]}</th>
+ <th>${splice[0][4]}</th>
+ <th>${splice[0][5]}</th>
+</tr>
+<tr py:for="i in range(1,len(splice))">
+ <td>${splice[i][0]}</td>
+ <td>${splice[i][1]}</td>
+ <td>${splice[i][2]}</td>
+ <td>${splice[i][3]}</td>
+ <td>${splice[i][4]}</td>
+ <td>${splice[i][5]}</td>
+</tr>
+</table>
+
+<table class="table">
+<tr py:for="i in range(0,len(params),2)">
+ <th>${params[i]}</th>
+ <td>${params[i+1]}</td>
+</tr>
+</table>
+    </body>
+</html>
