@@ -1,7 +1,7 @@
 from Splice_Mod import *
 
 class Display:
-    def __init__(self,enzyme, rsq, min_l=0, max_l=1000, min_w=0, max_w=100000, mc=3): 
+    def __init__(self,enzyme, rsq, min_l=0, max_l=1000, min_w=0, max_w=100000, mc=0): 
         self.enzyme = enzyme
         self.rsq = rsq
         self.min_l=min_l
