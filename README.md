@@ -16,4 +16,4 @@ Comment: My first version of this module did all of the above in a must more com
 
 3. 'Splice_App.py' is a much simpler module. It simply accepts all the relevant user input, this time also accepting the name of the enzyme to be used, and then accesses the appropriate enzyme (child class) from 'Splice_Mod'. The information is fed in, and the table of splices retrieved.
 
-4. The remaining files simply connect 'Splice_App.py' and 'Splice_Mod.py' to the web application, allowing users to manually input their arguments through a form, and allwing the resulting table to be displayed. Currently there are no input validations, which would be an issue for real usage, but otherwhise, it's enough to get the job done.
+4. The remaining files simply connect 'Splice_App.py' and 'Splice_Mod.py' to the web application, allowing users to manually input their arguments through a form, and allowing the resulting table to be displayed. Currently there are no input validations, which would be an issue for real usage, but otherwhise, it's enough to get the job done.
